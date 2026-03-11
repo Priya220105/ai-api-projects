@@ -1,12 +1,22 @@
-# Claude/Groq Chatbot
-A conversational chatbot built using the Groq API and LLaMA model.
+# AI API Projects
+Learning the Anthropic/Claude API through hands-on projects.
 
-## Features
-- Multi-turn conversation with memory
-- Environment variable protection for API keys
+## Topics Covered
+- ✅ Basic Chat & Multi-turn conversations
+- ✅ System prompts
+- 🔄 Response streaming
+- ⬜ Structured data
+- ⬜ Prompt evaluation
+- ⬜ Prompt engineering
+- ⬜ Agents & workflows
+
+## Tech Stack
+- Python, Jupyter Notebooks
+- Groq API (LLaMA model)
+- Anthropic Claude API
 
 ## Setup
 1. Clone the repo
-2. pip install groq python-dotenv
-3. Create .env file with your GROQ_API_KEY
-4. Run the notebook
+2. `pip install groq anthropic python-dotenv`
+3. Create `.env` file with your API keys
+4. Run any notebook
