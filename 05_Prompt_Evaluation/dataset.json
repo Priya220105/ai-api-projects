@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON object representing an AWS S3 bucket policy that allows read-only access to a specific bucket.",
+    "format": "json",
+    "solution_criteria": "The policy should specify the correct bucket name, allow the 's3:GetObject' action, and include a statement ID."
+  },
+  {
+    "task": "Write a Python function that takes an AWS IAM policy document as input and returns a list of all the actions specified in the policy.",
+    "format": "python",
+    "solution_criteria": "The function should handle policies with multiple statements and return a list of unique action names."
+  },
+  {
+    "task": "Create a regular expression that matches the format of an AWS ARN (Amazon Resource Name) for an S3 bucket.",
+    "format": "regex",
+    "solution_criteria": "The regular expression should match the 'arn:aws:s3:::bucket_name' format, where 'bucket_name' can be any valid S3 bucket name."
+  }
+]
