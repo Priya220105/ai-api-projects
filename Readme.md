@@ -4,8 +4,8 @@ Learning the Anthropic/Claude API through hands-on projects.
 ## Topics Covered
 - ✅ Basic Chat & Multi-turn conversations
 - ✅ System prompts
-- 🔄 Response streaming
-- ⬜ Structured data
+- ✅ Response streaming
+- ✅ Structured data
 - ⬜ Prompt evaluation
 - ⬜ Prompt engineering
 - ⬜ Agents & workflows
