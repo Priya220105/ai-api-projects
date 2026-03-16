@@ -1,0 +1,68 @@
+[
+  {
+    "output": "Here is a one-day meal plan for an athlete aiming to gain muscle, with no dairy products:\n\n*   **Calorie Target:** Approximately 3200 calories\n*   **Macronutrient Breakdown:** Protein (170g), Fat (80g), Carbs (420g)\n\n**Meal Plan:**\n\n*   **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with sliced banana (150g), almond butter (30g), and honey (20g).\n    *   Protein: 20g, Fat: 20g, Carbs: 80g\n*   **Mid-Morning Snack (10:00 AM):** Apple (150g) with peanut butter (30g).\n    *   Protein: 8g, Fat: 20g, Carbs: 25g\n*   **Lunch (1:00 PM):** Grilled chicken breast (150g) with brown rice (120g cooked weight), steamed green beans (100g), and a light vinaigrette dressing (30g).\n    *   Protein: 45g, Fat: 10g, Carbs: 60g\n*   **Afternoon Snack (4:00 PM):** Smoothie made with almond milk (240g), protein powder (30g), and mixed berries (100g).\n    *   Protein: 30g, Fat: 10g, Carbs: 40g\n*   **Dinner (7:00 PM):** Grilled turkey burger (120g) on a whole wheat bun (60g), with roasted sweet potato (150g) and steamed broccoli (200g).\n    *   Protein: 40g, Fat: 20g, Carbs: 80g\n*   **Evening Snack (9:00 PM):** Small handful of almonds (20g) and dried apricots (50g).\n    *   Protein: 8g, Fat: 12g, Carbs: 30g\n\nThis meal plan prioritizes lean protein sources, complex carbohydrates, and healthy fats to support muscle gain, while avoiding dairy products. Whole grains, fruits, and vegetables are also emphasized to provide essential vitamins and minerals.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "6'1\"",
+        "weight": "90kg",
+        "age": "28",
+        "goal": "muscle gain",
+        "restrictions": "no dairy products"
+      },
+      "solution_criteria": [
+        "The meal plan must include a minimum of 170g of protein per day",
+        "The meal plan must exclude all dairy products",
+        "The meal plan must provide a daily caloric intake of at least 2500 calories",
+        "The meal plan must include a variety of foods from different food groups (e.g. lean proteins, complex carbohydrates, healthy fats)"
+      ],
+      "task_description": "Create a personalized daily meal plan for a person based on their physical stats and fitness goal",
+      "scenario": "Testing with an athlete's profile: Input a height of 6'1\", weight of 90kg, age of 28, goal of muscle gain, and restrictions of no dairy products to evaluate the prompt's ability to create a high-protein meal plan."
+    },
+    "score": 9,
+    "reasoning": "The meal plan meets all the mandatory requirements, including a daily caloric total of at least 2500 calories, a minimum of 170g of protein per day, exclusion of all dairy products, and inclusion of a variety of foods from different food groups. The output also includes daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing as required. However, the meal plan could be improved by providing more detailed information about the nutritional benefits of each food item and more tailored advice for the individual's specific fitness goal."
+  },
+  {
+    "output": "Here is a one-day meal plan for an athlete aiming to lose weight, following a vegan and gluten-free diet:\n\n*   **Calorie Target:** Approximately 1800 calories (suitable for a 60kg, 5'4\" athlete aiming for weight loss)\n*   **Macronutrient Breakdown:** Protein (120g), Fat (40g), Carbs (250g)\n\n**Meal Plan:**\n\n*   **Breakfast (7:00 AM):** Gluten-free oatmeal (80g dry weight) with almond milk (240g), berries (100g), and walnuts (15g).\n    *   Protein: 10g, Fat: 15g, Carbs: 60g\n*   **Mid-Morning Snack (10:00 AM):** Apple (150g) with almond butter (30g).\n    *   Protein: 7g, Fat: 18g, Carbs: 25g\n*   **Lunch (1:00 PM):** Quinoa salad (100g cooked) with mixed greens (150g), cucumber (50g), tomato (50g), avocado (100g), and a light vinaigrette dressing (30g).\n    *   Protein: 20g, Fat: 20g, Carbs: 60g\n*   **Afternoon Snack (4:00 PM):** Banana (120g) with a handful of almonds (20g).\n    *   Protein: 8g, Fat: 12g, Carbs: 30g\n*   **Dinner (7:00 PM):** Lentil soup (200g cooked) with gluten-free whole grain bread (60g) and steamed broccoli (200g).\n    *   Protein: 25g, Fat: 10g, Carbs: 70g\n*   **Evening Snack (9:00 PM):** Small serving of hummus (50g) with gluten-free crackers (20g).\n    *   Protein: 10g, Fat: 10g, Carbs: 20g\n\nThis meal plan prioritizes whole, plant-based foods, including fruits, vegetables, whole grains, and legumes, while limiting processed and high-calorie foods to support weight loss and adhere to vegan and gluten-free dietary restrictions.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "5'4\"",
+        "weight": "60kg",
+        "age": "35",
+        "goal": "weight loss",
+        "restrictions": "vegan, gluten-free"
+      },
+      "solution_criteria": [
+        "The meal plan must be vegan and gluten-free",
+        "The daily calorie intake must be between 1500-1800 calories to support weight loss",
+        "The meal plan must include at least 5 servings of fruits and vegetables",
+        "The meal plan must provide a balanced macronutrient distribution (carbohydrates, protein, fat) for a 35-year-old individual"
+      ],
+      "task_description": "Create a personalized daily meal plan for a person based on their physical stats and fitness goal",
+      "scenario": "Testing with a health-conscious individual's profile: Input a height of 5'4\", weight of 60kg, age of 35, goal of weight loss, and restrictions of vegan and gluten-free to assess the prompt's capacity to generate a balanced and restricted meal plan."
+    },
+    "score": 9,
+    "reasoning": "The meal plan meets all the mandatory requirements, including being vegan and gluten-free, providing a daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. The meal plan also meets most of the secondary criteria, including providing a balanced macronutrient distribution and exceeding the minimum requirement of 5 servings of fruits and vegetables. However, there are some minor weaknesses, such as the lack of detailed nutritional information and some unclear portion sizes."
+  },
+  {
+    "output": "Here is a one-day meal plan for an athlete aiming to maintain their weight with no nuts and low sodium:\n\n*   **Calorie Target:** Approximately 2400 calories\n*   **Macronutrient Breakdown:** Protein (120g), Fat (40g), Carbs (320g)\n\n**Meal Plan:**\n\n*   **Breakfast (7:00 AM):** Oatmeal (80g dry weight) with banana (120g) and low-fat milk (240g).\n    *   Protein: 15g, Fat: 10g, Carbs: 60g\n*   **Mid-Morning Snack (10:00 AM):** Apple (150g) with sunflower seed butter (30g).\n    *   Protein: 4g, Fat: 16g, Carbs: 25g\n*   **Lunch (1:00 PM):** Grilled chicken breast (120g) with brown rice (100g) and mixed steamed vegetables (200g).\n    *   Protein: 35g, Fat: 10g, Carbs: 60g\n*   **Afternoon Snack (4:00 PM):** Low-fat yogurt (170g) with a pear (150g).\n    *   Protein: 15g, Fat: 0g, Carbs: 35g\n*   **Dinner (7:00 PM):** Baked cod (140g) with roasted sweet potatoes (150g) and green beans (150g).\n    *   Protein: 30g, Fat: 10g, Carbs: 60g\n*   **Evening Snack (9:00 PM):** Low-fat cottage cheese (120g) with cucumber slices (50g).\n    *   Protein: 25g, Fat: 0g, Carbs: 5g\n\nThis meal plan prioritizes lean protein sources, whole grains, fruits, and vegetables while avoiding nuts and limiting sodium intake to support the athlete's dietary needs and maintenance goal. The portion sizes are in grams, and the meal plan is budget-friendly.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "5'8\"",
+        "weight": "70kg",
+        "age": "65",
+        "goal": "maintenance",
+        "restrictions": "no nuts, low sodium"
+      },
+      "solution_criteria": [
+        "The meal plan includes a balanced mix of protein, healthy fats, and complex carbohydrates",
+        "The plan limits sodium intake to less than 2000mg per day",
+        "The plan excludes nuts and includes alternative healthy snack options",
+        "The daily calorie intake is between 1500-2000 calories, suitable for a senior citizen's maintenance goal"
+      ],
+      "task_description": "Create a personalized daily meal plan for a person based on their physical stats and fitness goal",
+      "scenario": "Testing with a senior citizen's profile: Input a height of 5'8\", weight of 70kg, age of 65, goal of maintenance, and restrictions of no nuts and low sodium to examine the prompt's ability to create a meal plan that caters to age-related dietary needs and restrictions."
+    },
+    "score": 6,
+    "reasoning": "The meal plan meets the mandatory requirements by providing a daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. However, it has significant deficiencies, including a daily calorie intake that exceeds the recommended range for a senior citizen's maintenance goal and a lack of explicit sodium limitation. Additionally, the inclusion of sunflower seed butter may not be suitable for a low sodium diet."
+  }
+]
