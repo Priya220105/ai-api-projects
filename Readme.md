@@ -6,7 +6,7 @@ Learning the Anthropic/Claude API through hands-on projects.
 - ✅ System prompts
 - ✅ Response streaming
 - ✅ Structured data
-- ⬜ Prompt evaluation
+- ✅ Prompt evaluation
 - ⬜ Prompt engineering
 - ⬜ Agents & workflows
 
