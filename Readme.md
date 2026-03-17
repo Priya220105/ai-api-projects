@@ -2,13 +2,19 @@
 Learning the Anthropic/Claude API through hands-on projects.
 
 ## Topics Covered
+
 - ✅ Basic Chat & Multi-turn conversations
 - ✅ System prompts
 - ✅ Response streaming
 - ✅ Structured data
 - ✅ Prompt evaluation
 - ✅ Prompt engineering
+- ⬜ Tool use with Claude
+- ⬜ RAG and Agentic Search
+- ⬜ Features of Claude
+- ⬜ Model Context Protocol (MCP)
 - ⬜ Agents & workflows
+
 
 ## Tech Stack
 - Python, Jupyter Notebooks
