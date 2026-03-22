@@ -24,6 +24,8 @@ Learning the Anthropic/Claude API through hands-on projects.
   
 ## Setup
 1. Clone the repo
-2. `pip install groq anthropic python-dotenv`
-3. Create `.env` file with your API keys
+2. `pip install groq anthropic openai python-dotenv`
+3. Create `.env` file with your API keys:
+   - `GROQ_API_KEY=your_key`
+   - `OPENROUTER_API_KEY=your_key`
 4. Run any notebook
