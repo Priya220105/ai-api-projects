@@ -9,7 +9,7 @@ Learning the Anthropic/Claude API through hands-on projects.
 - ✅ Structured data
 - ✅ Prompt evaluation
 - ✅ Prompt engineering
-- ⬜ Tool use with Claude
+- ✅ Tool use with Claude (implemented with OpenRouter/Qwen)
 - ⬜ RAG and Agentic Search
 - ⬜ Features of Claude
 - ⬜ Model Context Protocol (MCP)
@@ -19,10 +19,13 @@ Learning the Anthropic/Claude API through hands-on projects.
 ## Tech Stack
 - Python, Jupyter Notebooks
 - Groq API (LLaMA model)
+- OpenRouter API (Qwen 2.5 72B)
 - Anthropic Claude API
-
+  
 ## Setup
 1. Clone the repo
-2. `pip install groq anthropic python-dotenv`
-3. Create `.env` file with your API keys
+2. `pip install groq anthropic openai python-dotenv`
+3. Create `.env` file with your API keys:
+   - `GROQ_API_KEY=your_key`
+   - `OPENROUTER_API_KEY=your_key`
 4. Run any notebook
