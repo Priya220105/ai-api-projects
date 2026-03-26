@@ -28,4 +28,5 @@ Learning the Anthropic/Claude API through hands-on projects.
 3. Create `.env` file with your API keys:
    - `GROQ_API_KEY=your_key`
    - `OPENROUTER_API_KEY=your_key`
+   - `VOYAGE_API_KEY`
 4. Run any notebook
