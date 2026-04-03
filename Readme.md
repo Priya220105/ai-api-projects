@@ -10,7 +10,7 @@ Learning the Anthropic/Claude API through hands-on projects.
 - ✅ Prompt evaluation
 - ✅ Prompt engineering
 - ✅ Tool use with Claude (implemented with OpenRouter/Qwen)
-- ⬜ RAG and Agentic Search
+- ✅ RAG and Agentic Search
 - ⬜ Features of Claude
 - ⬜ Model Context Protocol (MCP)
 - ⬜ Agents & workflows
@@ -28,4 +28,5 @@ Learning the Anthropic/Claude API through hands-on projects.
 3. Create `.env` file with your API keys:
    - `GROQ_API_KEY=your_key`
    - `OPENROUTER_API_KEY=your_key`
+   - `VOYAGE_API_KEY`
 4. Run any notebook
