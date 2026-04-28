@@ -12,7 +12,7 @@ Learning the Anthropic/Claude API through hands-on projects.
 - ✅ Tool use with Claude (implemented with OpenRouter/Qwen)
 - ✅ RAG and Agentic Search
 - ✅ Features of Claude
-- ⬜ Model Context Protocol (MCP)
+- ✅ Model Context Protocol (MCP)
 - ⬜ Agents & workflows
 
 
